@@ -18,11 +18,11 @@ score3 = int(input("Enter test score: "))
 total_score = score1 + score2 + score3
 # calculate average score
 average_score = round(total_score / 3)
-             
+
 # format and display the result
 print("======================")
 print("Your Scores:", score1, score2, score3)
 print("Total Score:", total_score)
-print("Average Score:", average_score)     
+print("Average Score:", average_score)
 print()
 print("Bye")
